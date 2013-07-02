@@ -1,0 +1,108 @@
+/*
+Copyright (c) 2012, ReLoad. All rights reserved.
+Write By ReLoad
+Based on YUI http://developer.yahoo.com/yui/reset/ 
+and Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html 
+and Shawphy http://shawphy.com/ | http://shawphy.com/2009/03/my-own-reset-css.html
+version: 3.7 | 2013
+*/
+
+html,body { /*Height fit 100% - Open if it need*/
+  height: 100%;
+}
+
+body {
+	width: 100%;
+	/*overflow-x: hidden;*/
+}
+
+html,body {
+	font-smoothing            : antialiased;
+	-webkit-font-smoothing    : antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+html, body, div, h1, h2, h3, h4, textarea, input, button, span, applet,
+object, iframe, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section, summary, time, mark, audio, video
+{
+	margin        : 0px;
+	padding       : 0px;
+	border        : none;
+	font-size     : 100%;
+	font          : inherit;
+	outline       : none;
+	background    : transparent;
+	vertical-align: baseline;
+	font-style    : normal;
+}
+
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size  : inherit;
+	font-style : inherit;
+	font-weight: inherit;
+}
+
+input, select {
+   vertical-align: middle;
+}
+
+article, aside, dialog, footer,
+header, section, footer, nav, figure, menu {
+	display:block
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size  : 100%;
+	font-weight: normal;
+}
+
+ol, ul, li {
+	list-style: none;
+}
+
+input, button, textarea, select {
+	*font-size: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing : 0px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+}
+
+:link, :visited {
+	text-decoration: none;
+}
+em, strong {
+	font-style : normal;
+	font-weight: normal;
+}
+
+:focus {
+	outline: none;
+}
+
+figure {
+	padding: 0px;
+	margin : 0px;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
